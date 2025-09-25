@@ -9,6 +9,8 @@ import { Product } from './admin-components/product/product';
 const routes: Routes = [
 //Admin Routes
 
+
+
 {path:'admin',component:AdminLayout,
   children:[
     {path:'category',component:Category},
