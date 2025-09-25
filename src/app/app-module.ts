@@ -10,6 +10,8 @@ import { AdminLayout } from './_layouts/admin-layout/admin-layout';
 import { MainLayout } from './_layouts/main-layout/main-layout';
 import { Home } from './main-components/home/home';
 import { Product } from './admin-components/product/product';
+import { Slider } from './main-components/slider/slider';
+import { Menu } from './main-components/menu/menu';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { Product } from './admin-components/product/product';
     AdminLayout,
     MainLayout,
     Home,
-    Product
+    Product,
+    Slider,
+    Menu
   ],
   imports: [
     BrowserModule,
