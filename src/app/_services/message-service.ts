@@ -31,6 +31,10 @@ getReadMessages(){
   return this.http.get<MessageModel[]>(this.baseUrl+'read')
 };
 
+markAsRead(model:MessageModel){
+return this.http.patch(this.baseUrl+'markAsRead',model)
+}
+
 
 
 
