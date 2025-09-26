@@ -13,6 +13,7 @@ import { Product } from './admin-components/product/product';
 import { Slider } from './main-components/slider/slider';
 import { Menu } from './main-components/menu/menu';
 import { SendMessage } from './main-components/send-message/send-message';
+import { Message } from './admin-components/message/message';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SendMessage } from './main-components/send-message/send-message';
     Product,
     Slider,
     Menu,
-    SendMessage
+    SendMessage,
+    Message
   ],
   imports: [
     BrowserModule,

@@ -5,4 +5,5 @@ export class MessageModel{
   subject;
   body;
   isRead:boolean;
+  sendDate;
 }

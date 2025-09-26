@@ -19,5 +19,19 @@ create(model:MessageModel){
 return this.http.post(this.baseUrl,model)
 }
 
+getAll(){
+  return this.http.get<MessageModel[]>(this.baseUrl)
+};
+
+getUnreadMessages(){
+  return this.http.get<MessageModel[]>(this.baseUrl+'unread')
+};
+
+getReadMessages(){
+  return this.http.get<MessageModel[]>(this.baseUrl+'read')
+};
+
+
+
 
 }

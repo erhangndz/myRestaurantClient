@@ -5,6 +5,7 @@ import { Category } from './admin-components/category/category';
 import { MainLayout } from './_layouts/main-layout/main-layout';
 import { Home } from './main-components/home/home';
 import { Product } from './admin-components/product/product';
+import { Message } from './admin-components/message/message';
 
 const routes: Routes = [
 //Admin Routes
@@ -14,7 +15,8 @@ const routes: Routes = [
 {path:'admin',component:AdminLayout,
   children:[
     {path:'category',component:Category},
-    {path:'product',component:Product}
+    {path:'product',component:Product},
+    {path:'message',component:Message}
   ]},
 
 //Main Routes http://localhost:4200
